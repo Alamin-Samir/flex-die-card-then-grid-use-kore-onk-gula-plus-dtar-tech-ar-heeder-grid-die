@@ -1,0 +1,232 @@
+.pic{
+
+height:45px;
+
+margin-top: 24px;
+
+
+}
+
+
+.parent{
+
+background-color: black;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 30px;
+justify-content: space-between;
+color: azure;
+
+}
+
+
+
+.search{
+
+height: 40px;
+width: 200px;
+
+background-color: rgb(198, 194, 189);
+align-items: center;
+text-align: center;
+text-align: end;
+margin-top: 24px;
+}
+
+i{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.offer{
+
+
+display: flex;
+
+}
+
+
+.offer i{
+
+    color: red;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.text{
+
+font-weight: bold;
+font-size: 20px;
+
+}
+.latest{
+    font-size: 15px;
+}
+small{
+
+  font-weight: lighter;  
+}
+button{
+
+margin-top: 24px;
+width: 100px;
+background-color: blue;
+color: aliceblue;
+font-weight: lighter;
+cursor: pointer;
+
+}
+
+button:hover{
+
+color: blueviolet;
+
+}
+
+.parent1{
+
+
+
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.star1
+
+{
+
+   grid-column-start: 1; 
+   grid-column-end: 2;
+   background-color: antiquewhite;
+}
+
+
+.star2
+
+{
+
+   grid-column-start: 2; 
+   grid-column-end: 3;
+}
+
+.star3
+
+{
+
+   grid-column-start: 3; 
+   grid-column-end: 4;
+}
+
+
+
+.container{
+
+ 
+}
+
+.header{
+
+    display: flex;
+
+    background-color: floralwhite;
+background: 24px;
+border: 1px;
+}
+
+.vs-text{
+
+text-align: center;
+justify-content: center;
+
+
+
+
+}
+
+.vs{
+   border: none; 
+   background-color: aquamarine;
+ 
+   margin-top: 100px;
+   height: 20px;
+   width: 40px;
+   text-align: center;
+}
+
+
+
+
+
+.product-card p{
+
+
+text-align: center;
+
+
+
+}
+
+
+
+.b {
+  color: aliceblue;
+  font-weight: bolder;
+  margin-top: 70px;
+  align-items: center;
+  text-decoration: none;
+  line-height: 30px;
+  transition: color 0.33s ease, transform 0.33s ease; 
+}
+
+.b:hover {
+  color: yellow;       
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
+.d{
+    width: 500px;
+   ;
+    background-color: rgb(34, 13, 137);
+    text-align: center;
+    height: 50px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+main{
+
+
+
+
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+}
+   
+.container1{
+
+
+
+grid-column-start: 1;
+grid-column-end: 2;
+
+
+
+}
+
+
+.container{
+grid-column-start: 2;
+grid-column-end: 3;
+
+}
